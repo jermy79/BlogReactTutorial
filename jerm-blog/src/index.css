@@ -5,28 +5,41 @@
   margin: 0;
   font-family: "Quicksand";
   color: #333;
+  background-color: #FFFCF2;
 }
 .navbar {
   padding: 20px;
   display: flex;
   align-items: center;
-  max-width: 900px;
   margin: 0 auto;
-  border-bottom: 1px solid #f2f2f2;
+  background-color: #403D39;
+  border-bottom: 1px solid #252422;
 }
 .navbar h1 {
-  color: #F08000;
+  color: #EB5E28;
+  padding:10px;
+  background-color: #403D39;
+  font-size: 40px;
+}
+.navbar p {
+  background-color: #403D39;
 }
 .navbar .links {
   margin-left: auto;
+  background-color: #403D39;
+  font-size: 20px;
+  font-weight: bold;
 }
+
 .navbar a {
   margin-left: 16px;
   text-decoration: none;
   padding: 6px;
+  background: #EB5E28;
+  border-radius: 8px;
 }
 .navbar a:hover {
-  color: #F08000;
+  color: #FFFCF2;
 }
 .content {
   max-width: 900px;
@@ -39,33 +52,44 @@
   padding: 10px 16px;
   margin: 20px 0px;
   border-bottom: 1px solid #f2f2f2;
+  background-color: #CCC5B9;
+  border-radius: 8px;
 }
-
 .blogPreview:hover {
   box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
 }
 
 .blogPreview h2{
   font-size: 20px;
-  color: #F08000;
+  color: #EB5E28;
   margin-bottom: 8px;
+  background-color: #CCC5B9;
+}
+
+.blogPreview p{
+  background-color: #CCC5B9;
 }
 .blogPreview a{
   text-decoration: none;
+  
 }
 .blog-details author{
   margin-bottom: 20px;
+  background-color: #403D39;
 }
 .blog-details h2 {
   font-size: 20px;
-  color: #F08000;
+  color: #EB5E28;
   margin-bottom: 10px;
 }
 .blog-details div {
   margin: 20px 0;
+  border-radius: 8px;
+  background: #CCC5B9;
+  padding: 10px;
 }
 .blog-details button {
-  background: #F08000;
+  background: #EB5E28;
   color: #fff;
   border: 0;
   padding: 8px;
@@ -84,7 +108,7 @@
 }
 .create h2 {
   font-size: 20px;
-  color: #F08000;
+  color: #EB5E28;
   margin-bottom: 30px;
 }
 .create input, .create textarea, .create select {
@@ -96,7 +120,7 @@
   display: block;
 }
 .create button {
-  background: #F08000;
+  background: #EB5E28;
   color: #fff;
   border: 0;
   padding: 8px;
@@ -106,7 +130,7 @@
 
 .about h2{
   font-size: 20px;
-  color: #F08000;
+  color: #EB5E28;
   margin-bottom: 10px;
 }
 .about p{
