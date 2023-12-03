@@ -50,3 +50,25 @@
   color: #F08000;
   margin-bottom: 8px;
 }
+.blogPreview a{
+  text-decoration: none;
+}
+.blog-details author{
+  margin-bottom: 20px;
+}
+.blog-details h2 {
+  font-size: 20px;
+  color: #F08000;
+  margin-bottom: 10px;
+}
+.blog-details div {
+  margin: 20px 0;
+}
+.blog-details button {
+  background: #F08000;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
